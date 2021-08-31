@@ -1,0 +1,6 @@
+1. mkdir .hiddenfolder
+touch .hiddenfile.txt
+ls -a
+2. mkdir -p one/two/three
+3. echo -n "first line\nsecond line"
+
