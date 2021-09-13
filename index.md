@@ -1,3 +1,3 @@
 # Links to my homework
 
-[GitHub](https://danijelcvit.github.io/HYF-Module-HTMLCSSGIT/Week1)
+- [Week 1](https://danijelcvit.github.io/HYF-Module-HTMLCSSGIT/Week1)
