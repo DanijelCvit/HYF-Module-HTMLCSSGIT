@@ -1,3 +1,4 @@
 mkdir .hidden
 mkdir -p one/two/three
 echo -n message >> target_file.txt
+Alternative: printf message >> target_file.txt
