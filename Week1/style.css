@@ -183,7 +183,6 @@ ul {
   #avatar {
     text-align: center;
   }
-  /* ------------------------------PAGE------------------------------ */
 
   .name-and-picture {
     padding-left: var(--padding-left);
@@ -204,19 +203,7 @@ ul {
 }
 
 @media print {
-  header {
-    background-color: white;
-  }
-
-  address {
-    color: black;
-  }
-
   #name {
     color: black;
-  }
-
-  .container {
-    box-shadow: 0px;
   }
 }
