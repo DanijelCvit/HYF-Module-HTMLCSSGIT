@@ -3,7 +3,6 @@
   --padding-left: 30px;
   --padding-top: 20px;
   --padding-right: 30px;
-  --color-foreground: whitesmoke;
 }
 
 * {
@@ -49,7 +48,6 @@ header:before {
   position: relative;
   font-size: 2rem;
   white-space: nowrap;
-  color: var(--color-foreground);
 }
 
 address {
@@ -203,7 +201,11 @@ ul {
 }
 
 @media print {
-  #name {
+  header {
     color: black;
+  }
+
+  #avatar img {
+    border: 2px solid black;
   }
 }
