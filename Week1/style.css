@@ -230,7 +230,17 @@ ul {
     color: black;
   }
 
+  .print-hide {
+    display: none;
+  }
+
+  .print-show::after {
+    display: block;
+    content: attr(href);
+  }
+
   #avatar img {
     border: 2px solid black;
   }
 }
+/* content: " (" attr(href) ") "; */
