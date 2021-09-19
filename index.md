@@ -4,3 +4,8 @@
 
 1.  [The Digital Resume](https://danijelcvit.github.io/HYF-Module-HTMLCSSGIT/Week1)
 1.  [The CLI challenge](https://danijelcvit.github.io/HYF-Module-HTMLCSSGIT/Week1/commands.txt)
+
+## 2. Homework HTML/CSS Week 2
+
+1. [GIT exercise #1](https://danijelcvit.github.io/favorite-cmd-commands/)
+2. [Drones Website](https://danijelcvit.github.io/HYF-Module-HTMLCSSGIT/Week2)
