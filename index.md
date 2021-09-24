@@ -9,3 +9,8 @@
 
 1. [GIT exercise #1](https://danijelcvit.github.io/favorite-cmd-commands/)
 2. [Drones Website](https://danijelcvit.github.io/HYF-Module-HTMLCSSGIT/Week2)
+
+## 3. Homework HTML/CSS Week 2
+
+1. [GIT exercise #1](https://github.com/DanijelCvit/animals)
+2. [Patreon-Clone](https://danijelcvit.github.io/PATREON-clone/)
