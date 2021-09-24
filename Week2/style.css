@@ -35,18 +35,18 @@ h1 {
 }
 
 h3 {
-  margin: 0px 0px;
   text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   background-color: rgb(75, 75, 211);
   color: whitesmoke;
   vertical-align: middle;
   line-height: 3em;
   padding: 0 5px;
-  overflow: scroll;
 }
 
 p {
-  margin: 10px 0px;
   padding: 5px 15px;
 }
 
@@ -58,7 +58,6 @@ p {
 }
 
 .grid-item {
-  padding: 0px 0px;
   list-style-type: none;
   margin: 20px var(--margin);
   background-color: #ededed;
@@ -86,6 +85,7 @@ img {
   h3 {
     height: 3em;
   }
+  /* Float grid */
   .grid-floats {
     margin-left: var(--margin);
   }
@@ -115,6 +115,7 @@ img {
   .grid-flex .grid-item {
     flex-basis: calc(33.3% - var(--margin));
     margin: 0 var(--margin) var(--margin) 0;
+    min-width: 0;
   }
 
   .grid-flex .grid-item:first-child,
@@ -125,12 +126,12 @@ img {
 
 /************************** Desktop **************************/
 @media screen and (min-width: 1024px) {
+  /* Float grid */
   .grid-floats .grid-item {
     width: calc(25% - var(--margin));
     height: 600px;
   }
 
-  /* Float grid */
   .grid-floats li:first-of-type {
     max-width: calc(50% - var(--margin));
   }
